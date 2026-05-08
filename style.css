@@ -1,0 +1,33 @@
+@keyframes color-change {
+  0%   { color: rgb(0, 255, 200); }
+  50%  { color: rgb(255, 30, 0); }
+  100% { color: blue; }
+   10% { color: rgb(169, 224, 17); }
+}
+
+
+
+
+
+h1:hover { 
+    animation: color-change 3s infinite; 
+}
+
+
+body {
+    font-family: Arial,  sans-serif; /* Font family */
+    font-size: 11px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #f0f0f0; /* A cor do plano de fundo da página */
+    color: #a9e20d; /* A cor do texto */ 
+}
+
+
+
+
+
+ 
+h2 {
+    color: #12a33e; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
